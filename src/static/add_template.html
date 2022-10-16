@@ -1,0 +1,16 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h1>
+  Do you want to add a redirect to {{.URI}}?
+  </h1>
+  <form method="post" target="_self">
+    Redirect to: <input type="text" id="url" name="url" class="form-control" placeholder="http://www.example.com/some/path"><br>
+    <input type="submit" value="Create link"/>
+  </form>
+</body>
+</html>
