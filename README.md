@@ -9,6 +9,11 @@ done in the following way:
 http://myquicklin/some/uri
 ```
 
+## Prerequisite
+
+* Docker
+* Tested in Ubuntu
+
 ## Install
 
 Please, replace `your-quick-link-hostname` with the choosen hostname.
