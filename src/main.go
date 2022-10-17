@@ -35,7 +35,7 @@ func redirect_handler(w http.ResponseWriter, r *http.Request) {
 
 	} else {
 
-		http.Redirect(w, r, "http://localhost:"+PORT+"/add"+r.RequestURI, http.StatusTemporaryRedirect)
+		http.Redirect(w, r, "http://<QUICKLINK_ROOT>/add"+r.RequestURI, http.StatusTemporaryRedirect)
 
 	}
 
