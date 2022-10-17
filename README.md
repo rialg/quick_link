@@ -20,8 +20,9 @@ Please, replace `your-quick-link-hostname` with the choosen hostname.
 
 ```
 $ export QUICKLINK_ROOT="<your-quick-link-hostname>"
-$ find . -iname *.go -or -iname *.bash | \
-  sed -i "s/<QUICKLINK_ROOT>/${QUICKLINK_ROOT}/g"
+$ for file in $(find . -iname *.go -or -iname *.bash); do \
+  sed -i "s/<QUICKLINK_ROOT>/${QUICKLINK_ROOT}/g" ${file}; \
+  done
 $ sudo bash install.bash
 ```
 
