@@ -17,7 +17,7 @@ http://myquicklink/some/uri
 ## Install
 
 > **Note**
-> Please, replace `myquicklin` with the choosen hostname.
+> Please, replace `myquicklink` with the choosen hostname.
 
 ```
 $ export QUICKLINK_ROOT="myquicklink" # <- your quick_link hostname
