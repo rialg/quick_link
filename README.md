@@ -12,7 +12,7 @@ http://myquicklink/some/uri
 ## Prerequisite
 
 * Docker
-* Tested in Ubuntu
+* Unix base machine (i.e. Linux)
 
 ## Install
 
