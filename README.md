@@ -6,7 +6,7 @@ Forwarding proxy based in a short hostname. If the root is `myquicklink`, then e
 done in the following way:
 
 ```
-http://myquicklin/some/uri
+http://myquicklink/some/uri
 ```
 
 ## Prerequisite
@@ -19,7 +19,7 @@ http://myquicklin/some/uri
 Please, replace `your-quick-link-hostname` with the choosen hostname.
 
 ```
-$ export QUICKLINK_ROOT="<your-quick-link-hostname>"
+$ export QUICKLINK_ROOT="myquicklink" # <- your quick_link hostname
 $ for file in $(find . -iname "*.go" -or -iname "*.bash"); do \
   sed -i "s/<QUICKLINK_ROOT>/${QUICKLINK_ROOT}/g" ${file}; \
   done
